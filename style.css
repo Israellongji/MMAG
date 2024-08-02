@@ -391,7 +391,7 @@ figcaption {
   }
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 100px) {
+  @media only screen and (max-width: 200px) {
     .prev, .next,.text {font-size: 11px}
     iframe
   }
@@ -399,3 +399,25 @@ figcaption {
     max-width: fit-content;
     max-height: fit-content;
   }
+  #forms h3{
+    font-size: 30px;
+    margin: 10px;
+  }
+ #forms p {
+    text-align: center;
+    font-size: 20px;
+ }
+
+ #forms form{
+    text-align: center;
+    font-size: 20px;
+ }
+ #forms input {
+    border: solid 2px rgb(193, 9, 193); 
+    border-radius: 5px;
+ }
+ #forms button {
+    background-color: rgb(193, 9, 193);
+    color: white;
+    border-radius: 10px;
+ }
